@@ -22,6 +22,78 @@ public class PropertyKeyConstants {
     public static final String ACTIVEMQ_CREDENTIALS = "activemq.credentials";
     public static final String ACTIVEMQ_WEB_CONSOLE_URL = "activemq.web.console.url";
     public static final String SCSB_SUPPORT_INSTITUTION = "scsb.support.institution";
+    public static final String SOLR_CONFIGSETS_DIR = "solr.configsets.dir";
+    public static final String SOLR_SOLR_HOME = "solr.solr.home";
+    public static final String SOLR_PARENT_CORE = "solr.parent.core";
+    public static final String SCSB_EMAIL_ASSIST_TO = "scsb.email.assist.to";
+    public static final String SOLR_EXCEPTION_REPORT_DIRECTORY = "solr.exception.report.directory";
+    public static final String EMAIL_SCSB_UPDATECGD_TO = "email.scsb.updateCgd.to";
+    public static final String EMAIL_SCSB_UPDATECGD_CC = "email.scsb.updateCgd.cc";
+    public static final String EMAIL_SCSB_BATCH_JOB_TO = "email.scsb.batch.job.to";
+    public static final String EMAIL_SCSB_UPDATECGD_SUBJECT = "email.scsb.updateCgd.subject";
+    public static final String EMAIL_SCSB_BATCH_JOB_SUBJECT = "email.scsb.batch.job.subject";
+    public static final String SCSB_COLLECTION_REPORT_DIRECTORY = "scsb.collection.report.directory";
+    public static final String ONGOING_ACCESSION_COLLECTION_REPORT_DIRECTORY = "ongoing.accession.collection.report.directory";
+    public static final String SUBMIT_COLLECTION_REPORT_DIRECTORY = "submit.collection.report.directory";
+    public static final String S3_ONGOING_ACCESSION_COLLECTION_REPORT_DIR = "s3.ongoing.accession.collection.report.dir";
+    public static final String S3_DEACCESSION_COLLECTION_REPORT_DIR = "s3.deaccession.collection.report.dir";
+    public static final String ONGOING_MATCHING_REPORT_DIRECTORY = "ongoing.matching.report.directory";
+    public static final String S3_MATCHINGALGORITHM_REPORTS_DIR = "s3.matchingAlgorithm.reports.dir";
+    public static final String S3_SUBMIT_COLLECTION_SUPPORT_TEAM_REPORT_DIR = "s3.submit.collection.support.team.report.dir";
+    public static final String SOLR_URL = "solr.url";
+    public static final String MATCHING_ALGORITHM_BATCHSIZE = "matching.algorithm.batchSize";
+    public static final String MATCHING_ALGORITHM_BIBINFO_BATCHSIZE = "matching.algorithm.bibinfo.batchsize";
+    public static final String COMMIT_INDEXES_INTERVAL = "commit.indexes.interval";
+    public static final String SOLR_SERVER_PROTOCOL = "solr.server.protocol";
+    public static final String SOLR_ROUTER_URI_TYPE = "solr.router.uri.type";
+    public static final String MATCHING_ALGORITHM_INDEXING_BATCHSIZE = "matching.algorithm.indexing.batchsize";
+    public static final String MATCHING_ALGORITHM_COMMIT_INTERVAL = "matching.algorithm.commit.interval";
+    public static final String SUBMIT_COLLECTION_OWNINGINSTBIBIDLIST_PARTITION_SIZE = "submit.collection.owninginstbibidlist.partition.size";
+    public static final String MATCHING_REPORT_HEADER_VALUE_LENGTH = "matching.report.header.value.length";
+    public static final String EMAIL_DELETED_RECORDS_TO = "email.deleted.records.to";
+    public static final String EMAIL_SMTP_SERVER_ADDRESS_FROM = "email.smtp.server.address.from";
+    public static final String EMAIL_ACCESSION_JOB_EXCEPTION_TO = "email.accession.job.exception.to";
+    public static final String EMAIL_ACCESSION_JOB_EXCEPTION_CC = "email.accession.job.exception.cc";
+    public static final String S3_SUBMIT_COLLECTION_REPORT_DIR = "s3.submit.collection.report.dir";
+    public static final String S3_SUBMIT_COLLECTION_DIR = "s3.submit.collection.dir";
+    public static final String S3_ACCESSION_RECONCILIATION_DIR = "s3.accession.reconciliation.dir";
+    public static final String S3_ACCESSION_RECONCILIATION_PROCESSED_DIR = "s3.accession.reconciliation.processed.dir";
+    public static final String S3_DAILY_RECONCILIATION = "s3.daily.reconciliation";
+    public static final String S3_DAILY_RECONCILIATION_PROCESSED = "s3.daily.reconciliation.processed";
+    public static final String S3_ADD_S3_ROUTES_ON_STARTUP = "s3.add.s3.routes.on.startup";
+    public static final String SCSBBUCKETNAME = "scsbBucketName";
+    public static final String ACCESSION_RECONCILIATION_FILEPATH = "accession.reconciliation.filePath";
+    public static final String DAILY_RECONCILIATION_FILE = "daily.reconciliation.file";
+    public static final String SUBMIT_COLLECTION_LOCAL_DIR = "submit.collection.local.dir";
+    public static final String AWSACCESSKEY = "awsAccessKey";
+    public static final String AWSACCESSSECRETKEY = "awsAccessSecretKey";
+    public static final String BIBDATA_API_CONNECTION_TIMEOUT = "bibdata.api.connection.timeout";
+    public static final String BIBDATA_API_READ_TIMEOUT = "bibdata.api.read.timeout";
+    public static final String STATUS_RECONCILIATION_BATCH_SIZE = "status.reconciliation.batch.size";
+    public static final String STATUS_RECONCILIATION_DAY_LIMIT = "status.reconciliation.day.limit";
+    public static final String STATUS_RECONCILIATION_BARCODE_LIMIT = "status.reconciliation.barcode.limit";
+    public static final String PURGE_EMAIL_ADDRESS_EDD_REQUEST_DAY_LIMIT = "purge.email.address.edd.request.day.limit";
+    public static final String PURGE_EMAIL_ADDRESS_PHYSICAL_REQUEST_DAY_LIMIT = "purge.email.address.physical.request.day.limit";
+    public static final String PURGE_EXCEPTION_REQUEST_DAY_LIMIT = "purge.exception.request.day.limit";
+    public static final String PURGE_ACCESSION_REQUEST_DAY_LIMIT = "purge.accession.request.day.limit";
+    public static final String SUBMIT_COLLECTION_INPUT_LIMIT = "submit.collection.input.limit";
+    public static final String SUBMIT_COLLECTION_PARTITION_SIZE = "submit.collection.partition.size";
+    public static final String NONHOLDINGID_INSTITUTION = "nonholdingid.institution";
+    public static final String EMAIL_SUBMIT_COLLECTION_SUBJECT = "email.submit.collection.subject";
+    public static final String EMAIL_SUBMIT_COLLECTION_SUBJECT_FOR_EMPTY_DIRECTORY = "email.submit.collection.subject.for.empty.directory";
+    public static final String EMAIL_SMTP_SERVER = "email.smtp.server";
+    public static final String EMAIL_SMTP_SERVER_USERNAME = "email.smtp.server.username";
+    public static final String EMAIL_REQUEST_RECALL_SUBJECT = "email.request.recall.subject";
+    public static final String EMAIL_SMTP_SERVER_PASSWORD_FILE = "email.smtp.server.password.file";
+    public static final String ONGOING_ACCESSION_INPUT_LIMIT = "ongoing.accession.input.limit";
+    public static final String STATUS_RECONCILIATION = "status.reconciliation";
+    public static final String BATCH_ACCESSION_THREAD_SIZE = "batch.accession.thread.size";
+    public static final String S3_SOLR_REPORTS_DIR = "s3.solr.reports.dir";
+    public static final String TOMCAT_MAXPARAMETERCOUNT = "tomcat.maxParameterCount";
+    public static final String TRANSFER_API_NONHOLDINGID_INSTITUTION = "transfer.api.nonholdingid.institution";
+    public static final String ETL_DATA_DUMP_DELETED_TYPE_ONLYORPHAN_INSTITUTION = "etl.data.dump.deleted.type.onlyorphan.institution";
+    public static final String ETL_DATA_DUMP_INCREMENTAL_TYPE_NONFULLTREE_INSTITUTION = "etl.data.dump.incremental.type.nonfulltree.institution";
+
 
     /* ILS Property Keys */
     public static class ILS {
@@ -59,12 +131,6 @@ public class PropertyKeyConstants {
         public static final String ILS_EMAIL_ADMIN_ROLE_TO = "email.admin.role.to";
         public static final String ILS_EMAIL_TECHNICAL_SUPPORT_TO = "email.technical.support.to";
         public static final String ILS_EMAIL_SUBMIT_COLLECTION_NOFILES_TO = "email.submit.collection.nofiles.to";
-        public static final String ILS_EMAIL_DELETED_RECORDS_TO = "email.deleted.records.to";
-        public static final String ILS_EMAIL_SMTP_SERVER_ADDRESS_FROM = "email.smtp.server.address.from";
-        public static final String ILS_EMAIL_ACCESSION_JOB_EXCEPTION_TO = "email.accession.job.exception.to";
-        public static final String ILS_EMAIL_ACCESSION_JOB_EXCEPTION_CC = "email.accession.job.exception.cc";
-
-
 
         /* Other ILS Keys */
         public static final String ILS_DATA_DUMP_MARC = "datadump.marc";
@@ -97,41 +163,6 @@ public class PropertyKeyConstants {
         public static final String ILS_API_KEY = "ils.api.key";
         public static final String ILS_ENABLE_CIRCULATION_FREEZE = "ils.enable.circulation.freeze";
         public static final String ILS_CIRCULATION_FREEZE_MESSAGE = "ils.circulation.freeze.message";
-        public static final String ILS_S3_SUBMIT_COLLECTION_REPORT_DIR = "s3.submit.collection.report.dir";
-        public static final String ILS_S3_SUBMIT_COLLECTION_DIR = "s3.submit.collection.dir";
-        public static final String ILS_S3_ACCESSION_RECONCILIATION_DIR = "s3.accession.reconciliation.dir";
-        public static final String ILS_S3_ACCESSION_RECONCILIATION_PROCESSED_DIR = "s3.accession.reconciliation.processed.dir";
-        public static final String ILS_S3_DAILY_RECONCILIATION = "s3.daily.reconciliation";
-        public static final String ILS_S3_DAILY_RECONCILIATION_PROCESSED = "s3.daily.reconciliation.processed";
-        public static final String ILS_S3_ADD_S3_ROUTES_ON_STARTUP = "s3.add.s3.routes.on.startup";
-        public static final String ILS_SCSBBUCKETNAME = "scsbBucketName";
-        public static final String ILS_ACCESSION_RECONCILIATION_FILEPATH = "accession.reconciliation.filePath";
-        public static final String ILS_DAILY_RECONCILIATION_FILE = "daily.reconciliation.file";
-        public static final String ILS_SUBMIT_COLLECTION_LOCAL_DIR = "submit.collection.local.dir";
-        public static final String ILS_AWSACCESSKEY = "awsAccessKey";
-        public static final String ILS_AWSACCESSSECRETKEY = "awsAccessSecretKey";
-        public static final String ILS_BIBDATA_API_CONNECTION_TIMEOUT = "bibdata.api.connection.timeout";
-        public static final String ILS_BIBDATA_API_READ_TIMEOUT = "bibdata.api.read.timeout";
-        public static final String ILS_STATUS_RECONCILIATION_BATCH_SIZE = "status.reconciliation.batch.size";
-        public static final String ILS_STATUS_RECONCILIATION_DAY_LIMIT = "status.reconciliation.day.limit";
-        public static final String ILS_STATUS_RECONCILIATION_BARCODE_LIMIT = "status.reconciliation.barcode.limit";
-        public static final String ILS_PURGE_EMAIL_ADDRESS_EDD_REQUEST_DAY_LIMIT = "purge.email.address.edd.request.day.limit";
-        public static final String ILS_PURGE_EMAIL_ADDRESS_PHYSICAL_REQUEST_DAY_LIMIT = "purge.email.address.physical.request.day.limit";
-        public static final String ILS_PURGE_EXCEPTION_REQUEST_DAY_LIMIT = "purge.exception.request.day.limit";
-        public static final String ILS_PURGE_ACCESSION_REQUEST_DAY_LIMIT = "purge.accession.request.day.limit";
-        public static final String ILS_SUBMIT_COLLECTION_INPUT_LIMIT = "submit.collection.input.limit";
-        public static final String ILS_SUBMIT_COLLECTION_PARTITION_SIZE = "submit.collection.partition.size";
-        public static final String ILS_NONHOLDINGID_INSTITUTION = "nonholdingid.institution";
-        public static final String ILS_EMAIL_SUBMIT_COLLECTION_SUBJECT = "email.submit.collection.subject";
-        public static final String ILS_EMAIL_SUBMIT_COLLECTION_SUBJECT_FOR_EMPTY_DIRECTORY = "email.submit.collection.subject.for.empty.directory";
-        public static final String ILS_EMAIL_SMTP_SERVER = "email.smtp.server";
-        public static final String ILS_EMAIL_SMTP_SERVER_USERNAME = "email.smtp.server.username";
-        public static final String ILS_EMAIL_REQUEST_RECALL_SUBJECT = "email.request.recall.subject";
-        public static final String ILS_EMAIL_SMTP_SERVER_PASSWORD_FILE = "email.smtp.server.password.file";
-        public static final String ILS_ONGOING_ACCESSION_INPUT_LIMIT = "ongoing.accession.input.limit";
-        public static final String ILS_STATUS_RECONCILIATION = "status.reconciliation";
-        public static final String ILS_BATCH_ACCESSION_THREAD_SIZE = "batch.accession.thread.size";
-
     }
 
     /* IMS Property Keys */
